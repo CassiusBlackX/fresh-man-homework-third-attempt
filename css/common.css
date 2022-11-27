@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:12px;font-family:"Microsoft YaHei";color:#333;
+}
+a{color:#666;text-decoration:none;cursor:pointer;
+}
+a:hover{color:#2b7acd;
+}
+
+.container{float:left;width:100%;background-image:url(../images/柯南砖墙的副本.jpeg); 
+}
+
+.wrapper{width:1000px;margin:0 auto;overflow:hidden;
+}
+
+.header{float:left;width:1000px;
+}
+.header img{float:left;width:1000px;
+}
+
+.nav{float:left;width:1000px;height:40px;line-height:40px;font-size:14px;font-weight:bold;background-color:#2b7acd;
+}
+.nav a{margin:0 145px 0 20px;color:#fff;
+}
+.nav a:nth-last-child(1){margin-right:0;
+}
+
+.main{float:left;width:1000px;padding-bottom:20px;background-color:#fff;
+}
+
+.content{margin: auto;font-size: large;color: blue;
+}
+.content ul li {font-size: large;}
+
+.focus{float:left;width:960px;height:380px;margin:20px 0 15px 20px;
+}
+.focus img{float:left;width:960px;height:380px;
+}
+
+.line{float:left;width:960px;margin:15px 0 0 20px;
+}
+.line img{float:left;width:400px;margin-top:5px;
+}
+.line h3{float:right;width:530px;height:30px;line-height:30px;font-size:16px;
+}
+.line p{float:right;width:530px;line-height:25px;
+}
+
+.item{float:left;width:470px;margin:30px 0 0 20px;
+}
+.item img{float:left;width:220px;height:310px;margin-top:5px;border:1px solid #f1f1f1;
+}
+.item h3{float:right;width:230px;height:30px;line-height:30px;margin-top:5px;font-size:16px;
+}
+.item p{float:right;width:230px;line-height:27px;
+}
+
+.list{float:left;width:960px;margin:30px 0 10px 20px;
+}
+.list h3{float:left;width:530px;height:30px;line-height:30px;font-size:16px;
+}
+.list p{float:left;width:530px;line-height:25px;
+}
+.list img{float:right;width:400px;margin-top:5px;
+}
+
+.text{float:left;width:1000px;padding-bottom:10px;
+}
+.text h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;font-size:16px;font-weight:bold;color:#2b7acd;text-align:center;
+}
+.text img{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text p{float:left;width:900px;line-height:27px;margin-left:50px;font-size:13px;text-indent:25px;
+}
+
+.person{float:left;width:1000px;padding-bottom:10px;
+}
+.person h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;font-size:16px;color:#2b7acd;text-align:center;
+}
+.person article{float:left;width:470px;margin:20px 0 0 20px;
+}
+.person article img{float:left;width:120px;object-fit:contain;margin:18px 0 0 20px;border:1px solid #f1f1f1;
+}
+.person article h3{float:left;width:290px;height:25px;line-height:25px;margin:15px 0 0 20px;
+}
+.person article p{float:left;width:290px;line-height:25px;margin-left:20px;
+}
+
+.into{float:left;width:1000px;padding-bottom:30px;
+}
+.into form{float:left;margin:100px 0;
+}
+.into p{float:left;width:990px;
+}
+.into p span{float:left;width:300px;height:65px;line-height:65px;font-size:14px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#FFF;letter-spacing:3px;background-color:#2b7acd;border:0;
+}
+.into p textarea{float:left;width:330px;height:260px;line-height:35px;margin:15px 0 10px 20px;
+}
+
+.footer{float:left;width:1000px;height:80px;line-height:80px;color:#fff;text-align:center;background-color:#2b7acd;
+}
